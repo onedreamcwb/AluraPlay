@@ -26,6 +26,10 @@ body {
 
 .cabecalho__container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
     background-color: white;
     height: 80px;
     width: 100%;
@@ -38,6 +42,7 @@ body {
     padding: 15px 65px;
     cursor: pointer;
 }
+
 
 .pesquisar__input {
     width: 260px;
