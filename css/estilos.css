@@ -43,6 +43,9 @@ body {
     cursor: pointer;
 }
 
+.cabecalho__pesquisar__item {
+    display: none;
+}
 
 .pesquisar__input {
     width: 260px;
@@ -303,6 +306,12 @@ body {
         padding-left: 74px;
     }
 
+}
+
+@media (min-width: 834px) {
+    .cabecalho__pesquisar__item {
+        display: block;
+    }
 }
 
 @media(min-width: 1440px) {
