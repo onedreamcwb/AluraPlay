@@ -25,6 +25,7 @@ body {
 /* CABEÇALHO */
 
 .cabecalho__container {
+    display: flex;
     background-color: white;
     height: 80px;
     width: 100%;
