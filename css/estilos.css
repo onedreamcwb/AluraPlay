@@ -286,6 +286,11 @@ body {
     /* ESTILOS DA SECAO SUPERIOR */
 
     .superior__secao__container {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        gap: 15px; /*espaçamento entre os itens*/
+        overflow: scroll; /*Barra de rolagem*/
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
