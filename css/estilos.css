@@ -350,6 +350,19 @@ body {
     .rodape__container {
         justify-content: space-between;
     }
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+    
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
 }
 
 @media(min-width: 1440px) {
