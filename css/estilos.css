@@ -128,6 +128,12 @@ body {
     display: none; /*PESQUISAR SOBRE NTH CHILD*/
 }
 
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .menu__itens:hover {
     background-color: var(--azul-medio);
     transition: .5s;
