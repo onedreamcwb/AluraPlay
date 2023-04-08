@@ -112,6 +112,22 @@ body {
     width: 100%; /*em 100% do elemento pai (body)*/
 }
 
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li {
+    align-self: center;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none; /*PESQUISAR SOBRE NTH CHILD*/
+}
+
 .menu__itens:hover {
     background-color: var(--azul-medio);
     transition: .5s;
