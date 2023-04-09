@@ -377,7 +377,13 @@ body {
     .menu__lista:nth-child(3),
     .menu__lista:nth-child(4) {
     display: flex; /*PESQUISAR SOBRE NTH CHILD*/
-}
+}   
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
 
     .superior__secao__container {
         left: 247px;
@@ -389,6 +395,7 @@ body {
         border-bottom: 1.5px solid var(--azul-medio);
         height: auto;
         padding: 20px 17px 20px 15px;
+        gap: 15px;
     }
 
     /* ESTILOS VIDEOS */
