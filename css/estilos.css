@@ -368,6 +368,16 @@ body {
 @media(min-width: 1440px) {
 
     /* SEÇÃO SUPERIOR */
+    .menu__container {
+        width: 239px;
+        overflow: scroll;
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+    display: flex; /*PESQUISAR SOBRE NTH CHILD*/
+}
 
     .superior__secao__container {
         left: 247px;
@@ -377,6 +387,8 @@ body {
 
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
+        height: auto;
+        padding: 20px 17px 20px 15px;
     }
 
     /* ESTILOS VIDEOS */
