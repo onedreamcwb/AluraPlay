@@ -245,6 +245,10 @@ body {
 }
 
 /* SEÇÃO VÍDEOS */
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
 
 .videos__container {
     color: black;
