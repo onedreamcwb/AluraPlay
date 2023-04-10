@@ -25,11 +25,6 @@ body {
 /* CABEÇALHO */
 
 .cabecalho__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
     background-color: white;
     height: 80px;
     width: 100%;
@@ -41,10 +36,6 @@ body {
     background-repeat: no-repeat;
     padding: 15px 65px;
     cursor: pointer;
-}
-
-.cabecalho__pesquisar__item {
-    display: none;
 }
 
 .pesquisar__input {
@@ -106,32 +97,6 @@ body {
 .menu__container {
     background-color: var(--azul-escuro);
     font-size: 14px;
-    position: fixed; /*Fixo*/
-    bottom: 0%; /*Na parte de baixo*/
-    height: 74px; /*Altura*/
-    width: 100%; /*em 100% do elemento pai (body)*/
-}
-
-.menu__lista {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-}
-
-.menu__lista li {
-    align-self: center;
-}
-
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4) {
-    display: none; /*PESQUISAR SOBRE NTH CHILD*/
-}
-
-.menu__itens {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 
 .menu__itens:hover {
@@ -245,16 +210,8 @@ body {
 }
 
 /* SEÇÃO VÍDEOS */
-.videos__item {
-    height: 303px;
-    width: 280px;
-    flex-grow: 1;
-}
 
 .videos__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
     color: black;
     padding: 153px 20px 10px 20px;
 }
@@ -279,10 +236,6 @@ body {
 /* RODAPÉ */
 
 .rodape__container {
-    display: flex;
-    /*flex-direction: column;
-    flex-wrap: wrap;*/
-    flex-flow: column wrap;
     width: 100%;
     height: 875px;
     color: var(--cinza-texto);
@@ -320,11 +273,6 @@ body {
     /* ESTILOS DA SECAO SUPERIOR */
 
     .superior__secao__container {
-        display: flex;
-        align-items: center;
-        white-space: nowrap;
-        gap: 15px; /*espaçamento entre os itens*/
-        overflow: scroll; /*Barra de rolagem*/
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
@@ -351,47 +299,9 @@ body {
 
 }
 
-@media (min-width: 834px) {
-    .cabecalho__pesquisar__item {
-        display: block;
-    }
-    .rodape__container {
-        justify-content: space-between;
-    }
-    .menu__container {
-        left: 0;
-        height: auto;
-        width: 74px;
-        top: 80px;
-    }
-    
-    .menu__lista {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 15px;
-        gap: 33px;
-    }
-}
-
 @media(min-width: 1440px) {
 
     /* SEÇÃO SUPERIOR */
-    .menu__container {
-        width: 239px;
-        overflow: scroll;
-    }
-
-    .menu__lista:nth-child(2),
-    .menu__lista:nth-child(3),
-    .menu__lista:nth-child(4) {
-    display: flex; /*PESQUISAR SOBRE NTH CHILD*/
-}   
-
-    .menu__itens {
-        flex-direction: row;
-        gap: 15px;
-        align-items: center;
-    }
 
     .superior__secao__container {
         left: 247px;
@@ -401,30 +311,7 @@ body {
 
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
-        height: auto;
-        padding: 20px 17px 20px 15px;
-        gap: 15px;
     }
-
-    .menu__lista:nth-child(3) {
-        flex-direction: column-reverse;
-    }
-
-    /* .jogos {
-        order: 3;
-    }
-
-    .filmes {
-        order: 2;
-    }
-
-    .premium {
-        order: 1;
-    }
-
-    .maispagina {
-        order: 4;
-    } */
 
     /* ESTILOS VIDEOS */
 
