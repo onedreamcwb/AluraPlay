@@ -1,0 +1,13 @@
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media(min-width: 1440px) {
+.menu__itens {
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+}

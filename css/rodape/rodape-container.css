@@ -1,0 +1,14 @@
+.rodape__container {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+}
+
+@media (min-width: 834px) {
+
+    .rodape__container {
+        justify-content: space-between;
+    }
+
+}
