@@ -1,41 +1,60 @@
-# Frontend Mentor - Solução de componente de resumo de resultados
+# <a href="https://cursos.alura.com.br/course/css-flexbox-layouts-responsivos">Projeto AluraPlay</a>
+<img src="https://media.discordapp.net/attachments/1044972183870525540/1095716097266811031/image.png?width=960&height=242">
+Este é um Projeto do <a href="https://cursos.alura.com.br/course/css-flexbox-layouts-responsivos">Curso 1</a> da Formação "aprofunde em estilos" da Alura
 
-Esta é uma solução para o [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Os desafios do Frontend Mentor ajudam-no a melhorar as suas capacidades de codificação através da construção de projectos realistas. 
+# 🧠Tabela de conteúdos
 
-## Tabela de conteúdos
-
-  - [O Desafio](# o desafio)
-  - [Captura de ecrã](#screenshot)
+  - [O desafio](#o-desafio)
+  - [Captura de ecrã](#captura-de-tela)
   - [Links](#links)
-- [O meu processo](#my-process)
-  - [Construído com](#built-with)
-  - [O que aprendi](#what-i-learned)
-  - [desenvolvimento continuado](#continuação do desenvolvimento)
-  - [Recursos úteis](#recursos úteis)
+- [O meu processo](o-meu-processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento](#checklist-de-desenvolvimento)
 - [Autor](#autor)
-- [Agradecimentos](#acknowledgments)
+- [Agradecimentos](#agradecimentos)
 
-**Note: Apague esta nota e actualize o índice com base nas secções que guarda.**
-
-### O desafio
+## 🐱‍🏍O desafio
 
 Os utilizadores devem ser capazes de o fazer:
 
-- Ver a disposição óptima da interface, dependendo do tamanho do ecrã do seu dispositivo
-- Ver os estados de pairar e focar para todos os elementos interactivos na página
+- Entender como alinhar itens com Flexbox;
+- Propriedades para organizar grupos de itens flex na horizontal e vertical;
+- Entender como e porque utilizar o arquivo reset.css;
+- Aplicar estilos para telas mobile e tablet com @media.
+- Aplicar propriedades flex para: Alterar o eixo principal de elementos;
+- Quebra de itens em linhas ou colunas;
+- Aplicar espaçamento entre itens;
+- Definir as diferenças entre display flex e inline-flex.
+- Aprender uma nova propriedade flex, align-self;
+- Definir as diferenças entre flex-item e flex-container;
+- Aprender como utilizar pseudo-classes;
+- Aprender como utilizar a propriedade order;
+- Utilizar pseudo classes para mostrar os itens do menu Desktop escondidos;
+- Inserir vídeos no projeto;
+- Aprender como utilizar grid e flexbox em conjunto;
+- Ajustar os vídeos com a propriedade flex-grow;
+- Aprender como utilizar a propriedade flex-shrink;
 
-### Imagem de ecrã
+
+## 🏜Captura de Tela
 
 ![](./assets/images/dekstop.png)
 
-### Mobile
+## 🖥Dekstop
+![Imagem do Projeto dekstop](https://media.discordapp.net/attachments/1044972183870525540/1095716748638027786/61a7558e-9485-404a-b8ef-6f0a09afcf80.png?width=960&height=548)
+
+## 📱Mobile
+![Imagem do Projeto Mobile](https://media.discordapp.net/attachments/1044972183870525540/1095716713871458406/69289526-41b5-43de-87ba-b1f494d92fe8.png?width=310&height=640)
+
+## 🔳Tablet
+![Imagem do Projeto Tablet](https://media.discordapp.net/attachments/1044972183870525540/1095716732062146670/39363f61-aa6d-454e-9851-7c9bb07580cd.png?width=504&height=640)
+
+## 🔗Links
+- URL da solução: [Repo AluraPlay](https://github.com/onedreamcwb/AluraPlay)
+- URL do sítio em directo: [Link da Web](https://your-live-site-url.com)
 
 ![](./assets/images/mobile.png)
-
-### Ligações
-
-- URL da solução: [Adicione aqui o URL da solução](https://your-solution-url.com)
-- URL do sítio em directo: [Adicione aqui o URL do sítio em directo](https://your-live-site-url.com)
 
 ## O meu processo
 
@@ -56,7 +75,7 @@ Antes de finalizar busquei refatorar todo código css pra diminuir as linhas.
 
 Apenas botei em prática tudo que aprendi. Eu fiquei muito em dúvida no sumário, como eu chamaria os socres visual, memory, reaction, verbal. Após algum estudo resolvi chamar eles pela classe `span`
 
-### Continuação do desenvolvimento
+### Checklist de Desenvolvimento
 
 Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir bem ele, e as variáveis estão em português.
 
@@ -65,7 +84,7 @@ Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir be
 - Linkedin - [Gustavo Araujo](https://www.linkedin.com/in/ga20222/)
 - Frontend Mentor - [@onedreamcwb](https://www.frontendmentor.io/profile/onedreamcwb)
 
-## Autores
+## Agradecimentos
 
 Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estava fazendo uma chamada global no body com `view-height`e não `view-width` e a disponibilizar seu tempo pra sempre tentar ajudar.
 
