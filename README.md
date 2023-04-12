@@ -9,10 +9,8 @@ Este é um Projeto do <a href="https://cursos.alura.com.br/course/css-flexbox-la
   - [Links](#links)
 - [O meu processo](o-meu-processo)
   - [Construído com](#construído-com)
-  - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento](#checklist-de-desenvolvimento)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## 🐱‍🏍O desafio
 
@@ -53,54 +51,38 @@ Os utilizadores devem ser capazes de o fazer:
 ## 🔗Links
 - URL da solução: [Repo AluraPlay](https://github.com/onedreamcwb/AluraPlay)
 - URL do sítio em directo: [Link da Web](https://your-live-site-url.com)
+- URL do Quadro Trello [Link](https://trello.com/c/Dy86YQLA)
 
 ![](./assets/images/mobile.png)
 
-## O meu processo
+## 🙋🏼‍♂️O meu processo
 
-Basicamente eu demorei algumas horas pra finalizar esse projeto. Eu comecei dando as classes pra todos elementos html, refatorando tudo pra inglês, pois é uma forma de eu começar a praticar o inglês nos códigos.
+<img align="center" src="https://media.discordapp.net/attachments/1044972183870525540/1095726422221406378/image.png?width=960&height=547">
+<p align="center"> Particularmente, eu demorei um pouco pra entender a idéia do projeto, pois pegar um projeto já montado e apenas configurar o CSS dele foi novo pra mim. Senti que aprendi muito com esse curto na questão do Flexbox. Tanto pra container quanto pra Flex-items. Terminei o curso em 2 dias e mais 2 para me aprofundar</p>
 
-Antes de finalizar busquei refatorar todo código css pra diminuir as linhas.
 
-#### Construído com
+#### 🛠Construído com
 
 - Marcação HTML5 semântico
 - Propriedades personalizadas do CSS
 - Flexbox
 - Fluxo de trabalho Dekstop-primeiro
-- [HTML](https://www.w3schools.com/html/) - Biblioteca do HTML
-- [CSS](https://www.w3schools.com/css/) - Biblioteca do CSS
+- Aplicação de Metodologia BEM
+- Design Atômico
 
-### O que aprendi
+### ✅Checklist de Desenvolvimento
 
-Apenas botei em prática tudo que aprendi. Eu fiquei muito em dúvida no sumário, como eu chamaria os socres visual, memory, reaction, verbal. Após algum estudo resolvi chamar eles pela classe `span`
-
-### Checklist de Desenvolvimento
-
-Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir bem ele, e as variáveis estão em português.
+- [x] Aplicação da Metodologia BEM
+- [x] Aplicação de Design Atômico
+- [ ] Inserção dos Links
+- [ ] Refazer o Projeto pra um Tema futurista (I.A)
+- [ ] Conteúdos referentes a I.A
+- [ ] Mudar visual
 
 ## Autor
 
 - Linkedin - [Gustavo Araujo](https://www.linkedin.com/in/ga20222/)
 - Frontend Mentor - [@onedreamcwb](https://www.frontendmentor.io/profile/onedreamcwb)
-
-## Agradecimentos
-
-Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estava fazendo uma chamada global no body com `view-height`e não `view-width` e a disponibilizar seu tempo pra sempre tentar ajudar.
-
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/AllanR1991">
-        <img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png" width="100px;" alt="Foto do Allan Rodrigues no GitHub"/><br>
-        <sub>
-          <b>Allan Rodrigues</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
 <table>
   <tr>
