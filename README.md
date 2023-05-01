@@ -74,7 +74,7 @@ Os utilizadores devem ser capazes de o fazer:
 
 - [x] Aplicação da Metodologia BEM
 - [x] Aplicação de Design Atômico
-- [ ] Inserção dos Links
+- [x] Inserção dos Links
 - [ ] Refazer o Projeto pra um Tema futurista (I.A)
 - [ ] Conteúdos referentes a I.A
 - [ ] Mudar visual
